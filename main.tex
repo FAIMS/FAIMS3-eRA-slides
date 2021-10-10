@@ -87,7 +87,7 @@
 
 %----------------------------------------------------------------------------------------
 
-\section{`Small Data' Infrastructure}
+\section{The FAIMS problem space}
 
 \begin{sectionframe} % Custom environment required for section slides
 	\frametitle{`Small Data' Infrastructure}
@@ -112,26 +112,12 @@
  \end{figure}
 \end{frame}
 
-%----------------------------------------------------------------------------------------
 
-\begin{frame}{Context: the challenge of `small data'}
-    `Long tail' research: most field data is small data \parencite{Borgman2015-rh}
-    \begin{itemize}
-        \item Smaller scale
-        \item Diverse approaches
-        \item Heterogeneous data
-        \item Data and infrastructure emerge from fieldwork. 
-        \item Relative lack of standards.
-        \item Limited funding.
-        \item Large(r) new data streams make everything harder.
-        % \item Challenges associated with big(ger) data from photogrammetry, SfM, video, geophysics, etc., will exacerbate these problems.
-    \end{itemize}
-\end{frame}
 
 %----------------------------------------------------------------------------------------
 
 
-\begin{frame}{The data lifecycle}
+\begin{frame}{Data capture}
  \begin{figure}[H]
     \centering
     \vspace{-0.5cm}
@@ -145,10 +131,10 @@
 
 %----------------------------------------------------------------------------------------
 
-\section{Nine years of FAIMS Mobile}
+\section{10 years of FAIMS Mobile}
 
 \begin{sectionframe} % Custom environment required for section slides
-	\frametitle{Nine years of FAIMS Mobile}
+	\frametitle{10 years of FAIMS Mobile}
 	%\framesubtitle{Subtitle}
 
 % 	Some section slide content
@@ -235,11 +221,13 @@ FAIMS Mobile v0.1-2.6 `core' code is licensed GPLv3; FAIMS 3.0 is licensed Apach
 
 
 \begin{frame}{FAIMS 3.0 development approach}
-Other planned, but not yet elaborated, technical capabilities include:
+Planned technical capabilities include:
     \begin{itemize}
+        \item Cross-platform
         \item Web application to provide GUI to produce definition files
+        \item Interoperability with Cloudstor, EOSC nodes, ELNs, domain repositories (data `round-trip' export-modify-import via API or ETL)
+        \item Improved scalability and performance
         \item 'Real' user management and security
-        \item Interoperability with Cloudstor, EOSC nodes, ELNs, domain repositories (data `round-trip' export-modify-import)
         \item Device support (cameras, printers, instruments, etc.)
         \item Offline mapping
         \item Audio/video management
@@ -269,7 +257,7 @@ Other planned, but not yet elaborated, technical capabilities include:
 
 \begin{frame}{Thank you!}
 PDF and source code for this presentation is available at: 
-\texttt{https://github.com/FAIMS/FAIMS3-Intro-Slides}.
+\texttt{https://github.com/FAIMS/FAIMS3-eRA-slides}.
 
 FAIMS 3.0 project website: \texttt{https://faims.edu.au}.
 
